@@ -1,0 +1,317 @@
+ 
+
+
+
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+/*header start*/
+header {
+    padding-bottom: 0;
+}
+.menu ul li a {
+    padding: 0 0!important;
+    text-align: end;
+}
+.banner {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.banner_c h1 {
+    font-size: 25px;
+}
+.banner_c p {
+    margin: 20px 0;
+}
+.b_video i {
+    font-size: 30px;
+    margin-top: 5px;
+}
+.b_video span {
+    left: 55px;
+}
+
+.b_video small {
+    right: 12px;
+}
+/*header end*/
+/*work start*/
+.work {
+    padding: 40px 0;
+}
+.c_head_p {
+    font-size: 14px;
+}
+.c_head {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.items {
+    margin-top: 35px;
+}
+/*work end*/
+/*feature section start*/
+.feature {
+    padding: 40px 0;
+}
+.f_main {
+    margin-top: 30px;
+}
+.f_item {
+    text-align: center;
+}
+.f_item h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.f_item p {
+    margin-bottom: 35px;
+}
+/*feature section end*/
+/*team section start*/
+.team {
+    padding: 40px 0;
+}
+.team_main {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.team_img {
+    width: 100px;
+    height: 100px;
+}
+.team_c {
+    margin-top: 20px;
+}
+.team_c h3 {
+    font-size: 20px;
+}
+/*team section end*/
+/*pricing section start*/
+.pricing {
+    padding: 40px 0;
+}
+.card_custom {
+    margin-top: 20px;
+}
+/*pricing section end*/
+/*counter section start*/
+.counterr {
+    padding: 40px 0;
+}
+.counter_i h3 {
+    font-size: 35px;
+}
+
+.counter_i span {
+    font-size: 32px;
+}
+/*counter section end*/
+/*contact section start*/
+.contact {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.contact_head h1 {
+    font-size: 25px;
+}
+.input_email input {
+    margin-bottom: 12px;
+}
+.slider{
+	margin-top: 40px;
+}
+.slider_position {
+    position: relative;
+    left: 0;
+    top: 0;
+    transform: translate(0%, 0%);
+    display: none;
+}
+/*contact section end*/
+/*news section start*/
+.news {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.news_card {
+    margin-top: 25px;
+}
+.news_btn {
+    width: 127px;
+    height: 40px;
+    font-size: 14px;
+}
+/*news section end*/
+/*footer section start*/
+footer {
+    padding-top: 40px;
+}
+
+.footer_link {
+    text-align: center;
+}
+.newsletter {
+    text-align: center;
+}
+.newsletter h5 {
+    margin-top: 16px;
+    margin-bottom: 9px;
+}
+.input_group_c {
+    margin: 0 auto;
+}
+.footer_text {
+    margin-top: 20px;
+}
+
+/*footer section end*/
+.focus_null{
+    width: 30px !important;
+    height: 30px !important;
+}
+
+}
+
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*header start*/
+.menu ul li a {
+    padding: 0 0!important;
+    text-align: end;
+}
+.banner {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.banner_c h1 {
+    font-size: 40px;
+}
+/*header end*/
+/*work start*/
+.work {
+    padding: 50px 0;
+}
+.c_head {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+.items {
+    margin-top: 45px;
+}
+/*work end*/
+/*feature section start*/
+.feature {
+    padding: 50px 0;
+}
+.f_main {
+    margin-top: 35px;
+}
+.f_item {
+    text-align: center;
+}
+.f_item h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.f_item p {
+    margin-bottom: 40px;
+}
+.f_item p:last-chile{
+	margin-bottom: 0;
+}
+/*feature section end*/
+/*team section start*/
+.team {
+    padding: 50px 0;
+}
+.team_main {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+/*team section end*/
+/*pricing section start*/
+.pricing {
+    padding: 50px 0;
+}
+.card_custom {
+    margin-top: 30px;
+}
+/*pricing section end*/
+/*counter section start*/
+.counterr {
+    padding: 50px 0;
+}
+/*counter section end*/
+/*contact section start*/
+.contact {
+    padding-top: 50px;
+}
+.contact_head h1 {
+    font-size: 40px;
+}
+.input_email input {
+    margin-bottom: 12px;
+}
+/*contact section end*/
+/*news section start*/
+.news {
+    padding-top: 270px;
+    padding-bottom: 50px;
+}
+.news_card {
+    margin-top: 40px;
+}
+.news_btn {
+    width: 170px;
+    height: 45px;
+}
+/*news section end*/
+/*footer section start*/
+footer {
+    padding-top: 50px;
+}
+
+.footer_link {
+    margin-bottom: 30px;
+}
+.footer_text {
+    margin-top: 30px;
+}
+
+/*footer section end*/
+
+
+ }
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/*header start*/
+.menu ul li a {
+    padding: 0 0!important;
+    text-align: end;
+}
+/*header end*/
+/*counter section start*/
+.counter_i span {
+    font-size: 35px;
+}
+/*counter section end*/
+
+
+
+}
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+ }
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+
+ }
