@@ -126,6 +126,7 @@ header {
     left: 0;
     top: 0;
     transform: translate(0%, 0%);
+    display: none;
 }
 /*contact section end*/
 /*news section start*/
@@ -208,12 +209,18 @@ footer {
 .f_main {
     margin-top: 35px;
 }
+.f_item {
+    text-align: center;
+}
 .f_item h3 {
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .f_item p {
     margin-bottom: 40px;
+}
+.f_item p:last-chile{
+	margin-bottom: 0;
 }
 /*feature section end*/
 /*team section start*/
