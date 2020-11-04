@@ -439,6 +439,10 @@ header{
 	border:1px solid #5069f5;
 
 }
+.news_btn:focus{
+	outline: 0;
+	box-shadow: none;
+}
 /*news section end*/
 /*footer section start*/
 footer{
